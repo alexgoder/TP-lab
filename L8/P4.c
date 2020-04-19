@@ -32,7 +32,7 @@ int main()
 		} while (n >= 1);
 	}
 	if (s1 == s2 && s1 == s3 && s1 == s4)
-		printf("%d", s1);
+		printf("Suma este: %d", s1);
 	system("pause");
 	return 0;
 }
