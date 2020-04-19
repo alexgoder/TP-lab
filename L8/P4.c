@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//Sa se implementeze suma numerelor pana la “N” printr-o functie recursiva si prin metodele repetitive (for, while, do while)
 int suma_recursiva(int n)
 {
 	if (n < 2)
