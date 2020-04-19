@@ -25,8 +25,7 @@ int main()
 			s3 = s3 + j;
 			j++;
 		}
-		do
-		{
+		do{
 			s4 = s4 + n;
 			n--;
 		} while (n >= 1);
