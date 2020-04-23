@@ -12,13 +12,6 @@ void push1(int x)
 	st1[++top1] = x;
 }
 
-int pop()
-{
-	if (top1 == -1)
-		return -1;
-	return st1[top1--];
-}
-
 int verif_palindrom(int a[], int n)
 {
 	int i;
