@@ -1,3 +1,13 @@
+/*Flood Fill - MS Paint
+- Citindu-se dintr-un fisier o matrice care sa reprezinte codul de coluri a unei imagini. Sa
+se implementeze functia fill in urmatorul mod.
+- Matricea va fi formata din numere. Un numar anume va reprezenta o culoare.
+- Algoritmul va cauta imprejurul celulei / punctului ales si va colora fiecare
+celula adiacenta (daca are acelasi cod de culoare) cu aceeasi culoare noua.
+
+(Se afiseaza matricea si o legenda de culori - alegeti voi cate culori doriti)
+(Utilizatorul va alege o pozitie si o culoare noua)
+(Algoritmul trebuie sa afiseze apoi matricea schimbata conform technicii fill)*/
 #include<stdio.h>
 #include<string.h>
 #define MAXCHAR 100
