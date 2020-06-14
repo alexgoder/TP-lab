@@ -1,3 +1,12 @@
+/*Minesweeper generate board
+Sa se genereze o harta de minesweeper de dimensiunea de 10x10. Initial utilizatorul este rugat sa
+introduca numarul de bombe, care vor fi amplasate random pe harta.
+Bombele se vor adauga aleatoriu pe harta.
+O bomba nu se poate adauga peste o alta bomba, se va cauta alta locatie.
+In momentul in care fiecare bomba este adaugata. Se va genera harta dupa urmatorul model.
+Fiecare celula care NU are vreo bomba, va trebui sa aibe un numar introdus in ea. Numarul respectiv
+reprezinta numarul de bombe adiacente acelei celule.
+De exemplu, folosim notatia “ * “ pentru bombe.*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
