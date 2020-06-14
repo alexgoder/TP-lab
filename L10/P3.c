@@ -1,3 +1,13 @@
+/*Un vector &quot;frumos&quot;
+
+Fiind dat un numar intreg &quot;N&quot; si un vector &quot;V&quot;. Vectorul &quot;V&quot; este considerat &quot;frumos&quot; daca este
+cumva o permutare de elemente de la 1 la N, a.i
+- Ptr fiecare i&lt;j, nu exista nici o variabila &quot;k&quot; unde i &lt; k &lt; j, a.i A[k] * 2 = A[i] + A[j].
+
+Fiind dat &quot;N&quot; sa se returneze orice vector &quot;V&quot; care sa fie &quot;frumos&quot;
+
+Input: 4
+Output: 2,1,4,3*/
 #include<stdio.h>
 int n, v[100],sol=0;
 void afisare(FILE *g)
