@@ -1,3 +1,4 @@
+/*Folosind doar operatii pe biti si fara operatorul de "inmultire" sa se calculeze produsul a doua numere intregi citite de la tastatura.*/
 #include<stdio.h>
 int a, b, n = 0, v[8], i, v1[8], v2[8];
 int main()
