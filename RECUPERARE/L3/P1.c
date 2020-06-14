@@ -1,3 +1,4 @@
+/*1. Sa se scrie un program care citeste de la tastura "N" numere naturale. Pentru fiecare numar se va determina forma lui binara, se va calcula inversul binar ,iar mai apoi se va afisa numarul zecimal calculat din inversul binar.*/
 #include<stdio.h>
 int v[8], v1[8], p = 128, s = 0;
 int n;
