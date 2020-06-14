@@ -1,3 +1,8 @@
+/*Sa se realizeze o implementare de stiva FARA a ne folosii
+variabile globale iar TOATE variabilele trebuiesc sa fie
+pointeri. Stiva este de numere intregi. Se va introduce in
+stiva 7 numere de tip intreg. - Sunt necesare toate metodele
+(de verificat plin / gol / peek / push / pop)*/
 #include <stdio.h>
 #include<stdlib.h>
 
