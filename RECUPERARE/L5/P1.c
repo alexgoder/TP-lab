@@ -1,3 +1,7 @@
+/*Sa se scrie un program care citeste de la tastura n
+numere naturale. Pentru fiecare numar se va determina forma
+lui binara, se va calcula inversul binar ,iar mai apoi se
+introduce intr-o stiva forma binara inversata.*/
 #include<stdio.h>
 int top = -1, st[8], v[8], b;
 
