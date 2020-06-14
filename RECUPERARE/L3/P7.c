@@ -1,3 +1,4 @@
+/*Se da un numar natural N. Sa se afiseze suma bitiilor fiecarui numar de la 1 la N.*/
 #include<stdio.h>
 int v[8], ct = 0;
 int n;
